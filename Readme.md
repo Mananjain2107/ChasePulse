@@ -7,6 +7,8 @@
 
 > 🎯 A real-time ML-powered win probability engine for cricket chases with advanced match intelligence.
 
+🔗 **Live App:** [chasepulse-nnf7rra8fnncspelxaxdjg.streamlit.app](https://chasepulse-nnf7rra8fnncspelxaxdjg.streamlit.app)
+
 ---
 
 ## 📸 Preview
@@ -157,6 +159,3 @@ ChasePulse/
 ## 👤 Author
 
 **Manan Jain**
-
----
-
