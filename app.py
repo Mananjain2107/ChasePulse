@@ -5,7 +5,7 @@ import numpy as np
 
 # ─── PAGE CONFIG ─────────────────────────────────────
 st.set_page_config(
-    page_title="IPL Win Predictor",
+    page_title="ChasePulse",
     page_icon="🏏",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -471,7 +471,7 @@ def get_win_prob(batting_team, bowling_team, city, runs_left, balls_left, wicket
 with st.sidebar:
     st.markdown("""
     <div style='padding: 1rem 0 1.5rem 0;'>
-        <div class='sidebar-brand'>🏏 IPL Oracle</div>
+        <div class='sidebar-brand'>🏏 IPL WIN <br> Predictor</div>
         <div style='font-size: 0.78rem; color: #6b6b80; margin-top: 2px;'>Live Win Probability Engine</div>
     </div>
     """, unsafe_allow_html=True)
@@ -499,7 +499,7 @@ with st.sidebar:
     """, unsafe_allow_html=True)
 
 # ─── HERO ───────────────────────────────────────────
-st.markdown('<div class="hero-title">IPL Win<br>Predictor</div>', unsafe_allow_html=True)
+st.markdown('<div class="hero-title">ChasePulse</div>', unsafe_allow_html=True)
 st.markdown('<div class="hero-sub">Real-time win probability · Second-innings chase analysis</div>', unsafe_allow_html=True)
 st.markdown("<br>", unsafe_allow_html=True)
 
